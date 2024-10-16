@@ -141,6 +141,8 @@ export function Home() {
             <input type='text' placeholder='Min-Time' onChange={e => handleMinTime(e.target.value)}></input>
             <input type='text' placeholder='Max-Time'onChange={e => handleMaxTime(e.target.value)}></input>
           </div>
+          <hr></hr>
+          <button onClick={handleGenerateRecipes} className='button'>Filter</button>
         </div>
 
         <div className='content-section'>
