@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Recipes.css';
 import { allRecipes, filterHelper } from '../matchRecipes';
-import logo from '../aliment logo.png';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import { Navbar } from '../components/Navbar';
@@ -94,14 +93,7 @@ export function Home() {
 
   return (
     <div className="App">
-        <Navbar/>
-      <header className="App-header">
-        <div className='header-section'>
-          <img src={logo} alt="Logo" className="logo" />
-        </div>
-      </header>
-
-
+      <Navbar/>
       <div className='main-container'>
         <div className='category-section'>
           <h1>Filter</h1>
@@ -134,14 +126,6 @@ export function Home() {
             <input type='text' placeholder='Max-Time'onChange={e => handleMaxTime(e.target.value)}></input>
           </div>
           <hr></hr>
-
-          <h2>Total-Time</h2>
-          <div>
-            {/* fix this! need to make sure only ints can be inputted */}
-            <input type='text' placeholder='Min-Time' onChange={e => handleMinTime(e.target.value)}></input>
-            <input type='text' placeholder='Max-Time'onChange={e => handleMaxTime(e.target.value)}></input>
-          </div>
-          <hr></hr>
           <button onClick={handleGenerateRecipes} className='button'>Filter</button>
         </div>
 
@@ -168,7 +152,7 @@ export function Home() {
                   <h3>{recipe.name}</h3>
                     <p>{recipe.category}</p>
                     <p>Prep Time: {recipe.prep_time}</p>
-                    <p>Total Time: {recipe.total_time}</p>
+                    {/* <p>Total Time: {recipe.total_time}</p> */}
                     <button className="recipe-button" onClick={() => handleRecipeClick(recipe.Link)}>Link</button>
                 </div>
               </div>

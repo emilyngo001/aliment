@@ -1,0 +1,38 @@
+.about-container {
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; 
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Circular image */
+  margin-right: 20px; /* Space between image and text */
+}
+
+.team-member p {
+  margin: 5px 0; /* Space between paragraphs */
+}
+
+.team-member a {
+  color: #0073e6; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.team-member a:hover {
+  text-decoration: underline; /* Underline on hover for better visibility */
+}
