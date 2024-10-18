@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/aliment/static/css/main.de0baab4.css",
-    "main.js": "/aliment/static/js/main.5b4d8ed4.js",
+    "main.css": "/aliment/static/css/main.f85ae786.css",
+    "main.js": "/aliment/static/js/main.0811aa89.js",
     "static/js/952.d1a9e04a.chunk.js": "/aliment/static/js/952.d1a9e04a.chunk.js",
     "static/js/453.6ba0d6e1.chunk.js": "/aliment/static/js/453.6ba0d6e1.chunk.js",
     "static/media/aliment logo.png": "/aliment/static/media/aliment logo.1304c2342d9ee1dbb621.png",
+    "static/media/cookinggirl.png": "/aliment/static/media/cookinggirl.30998f03e93f72223fdd.png",
+    "static/media/homecook.webp": "/aliment/static/media/homecook.4e3dbfd8ab24bf35f6b8.webp",
+    "static/media/melody.jpg": "/aliment/static/media/melody.522712968b26f647717e.jpg",
+    "static/media/arjun.jpg": "/aliment/static/media/arjun.c92d39d34e3b7458b098.jpg",
+    "static/media/ethan.webp": "/aliment/static/media/ethan.3b1e2d2c9547d152c9c9.webp",
     "index.html": "/aliment/index.html",
-    "main.de0baab4.css.map": "/aliment/static/css/main.de0baab4.css.map",
-    "main.5b4d8ed4.js.map": "/aliment/static/js/main.5b4d8ed4.js.map",
+    "main.f85ae786.css.map": "/aliment/static/css/main.f85ae786.css.map",
+    "main.0811aa89.js.map": "/aliment/static/js/main.0811aa89.js.map",
     "952.d1a9e04a.chunk.js.map": "/aliment/static/js/952.d1a9e04a.chunk.js.map",
     "453.6ba0d6e1.chunk.js.map": "/aliment/static/js/453.6ba0d6e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de0baab4.css",
-    "static/js/main.5b4d8ed4.js"
+    "static/css/main.f85ae786.css",
+    "static/js/main.0811aa89.js"
   ]
 }
